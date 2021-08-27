@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:13307/tryjwt
+    driver_class_name: com.mysql.cj.jdbc.Driver
+    username: root
+    password:
+
+jwt:
+  secret: tryjwt
+  valid-seconds: 180
